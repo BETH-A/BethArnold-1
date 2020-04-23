@@ -1,0 +1,148 @@
+/* content styling */
+body {
+  background: url(../images/blackWhiteFlowers.jpg) no-repeat center;
+  background-size: cover;
+}
+
+label {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+/* div styling */
+#footer {
+  background: #e9ecef;
+  bottom: 0;
+  color: #666666;
+  height: 60px;
+  left: 0;
+  padding:20px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+#pic {
+  float: left;
+  height: 450px;
+  margin-right: 15px;
+  width: 300px;
+}
+
+/* class styling */
+.blockquote {
+  background: #f7caca;
+  height: 115px;
+  text-align: center;
+}
+
+.blockquote-footer {
+  background: #e9ecef;
+  height: 30px;
+}
+
+.btn {
+  background-color: #900;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.contact {
+  margin-left: 150px;
+}
+
+.conactCard {
+  background-color: #900;
+  text-align: center;
+  width: 250px;
+}
+.iconRow {
+  align-content: center;
+  margin-left: 30px;
+  position:relative;
+}
+
+.img-fluid {
+  float: left;
+  height: 275px;
+  margin-right: 15px;
+  width: 300px;
+}
+
+.jumbotron {
+  height: 150px;
+  padding-top: 70px;
+}
+
+.navbar {
+  background-color: #900;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.quote {
+  margin-bottom: 100px;
+}
+
+.quotetext {
+  color: #000;
+}
+
+.profile_data {
+  color: #fff;
+  float: left;
+  left: 350px;
+  padding: 55px 30px 0px 30px;
+  position: absolute;
+}
+
+.projectCard {
+  background-color: #900;
+  color: #fff;
+  margin: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.projectCardRow {
+  margin: 20;
+  align-items: center;
+}
+
+.row {
+  padding: 30px;
+}
+
+.webApps {
+  color: #fff;
+  text-align: center;
+}
+
+
+/* Link Styling */
+/* unvisited link */
+a:link {
+    color: #eee;
+}
+
+/* visited link */
+a:visited {
+    color: #900;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e9ecef;
+}
+
+/* selected link */
+a:active {
+    color: #666666;
+}
