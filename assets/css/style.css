@@ -4,6 +4,10 @@ body {
   background-size: cover;
 }
 
+/* img {
+  padding: 5px;
+} */
+
 label {
   color: #fff;
 }
