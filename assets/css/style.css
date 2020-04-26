@@ -52,6 +52,11 @@ p {
   background-color: #900;
 }
 
+.card-columns {
+  display: inline-block;
+  /* height: 550px; */
+}
+
 .card-img-top {
     height: 200px;
 }
@@ -118,10 +123,11 @@ p {
 .projectCard {
   background-color: #900;
   color: #fff;
+  height: 525px;
   margin: 10px;
   /* padding: 5px; */
   text-align: center;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .projectCardRow {
