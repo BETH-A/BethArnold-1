@@ -56,6 +56,14 @@ p {
     height: 200px;
 }
 
+.card-text {
+  padding: 10px;
+}
+
+.card-footer {
+
+}
+
 .contact {
   margin-left: 150px;
 }
@@ -65,9 +73,9 @@ p {
   text-align: center;
   width: 250px;
 }
+
 .iconRow {
   align-content: center;
-  margin-left: 30px;
   position:relative;
 }
 
@@ -114,10 +122,6 @@ p {
   /* padding: 5px; */
   text-align: center;
   width: 30%;
-}
-
-.projectCardText {
-  padding: 10px;
 }
 
 .projectCardRow {
