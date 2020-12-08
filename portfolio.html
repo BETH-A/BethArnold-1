@@ -2,227 +2,440 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Beth Arnold</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="desciption"
+    content="Full Stack Web Developer & iOS App Developer, passionate about learning and growing within the Dev community! Please check out my portfolio of web & iOS Apps! Some of my skills include JavaScript, React, Swift5, SwiftUI, Docker & Kubernetes, MERN, and AWS.">
+  <title>Beth Arnold</title>
 
-    <link rel="shortcut icon" type="image/png" href="assets/images/bLogo.png" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-
+  <link rel="shortcut icon" type="image/png" href="assets/images/bLogo.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="navbar-brand" >Beth Arnold</div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="navbar-brand">Beth Arnold</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                    <a class="nav-link" href="index.html">About
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                    <span class="sr-only">(current)</span>
-                </li>
-            </ul>
-        </div>
-        <a href="https://www.linkedin.com/in/beth-arnold-640170153/" target="_blank" class="img-link">
-            <img src="assets/images/icons/linkedIn_blackCircle.png" alt="LinkedIn Link">
-        </a>
-        <a href="https://github.com/BETH-A" target="_blank" class="img-link">
-            <img src="assets/images/icons/github_cat.png" alt="Github Link">
-        </a>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About
+          </a>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+          <span class="sr-only">(current)</span>
+        </li>
+      </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/beth-arnold-640170153/" target="_blank" class="img-link">
+      <img src="assets/images/icons/linkedin.svg" alt="LinkedIn Link" height="40" width="40" />
+    </a>
+    <a href="https://github.com/BETH-A" target="_blank" class="img-link">
+      <img src="assets/images/icons/github.svg" alt="GitHub Link" height="40" width="40" style="margin-left: 15px;" />
+    </a>
+  </nav>
 
-    <main role="main">
+  <main role="main">
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-            <div class="container">
-                <h1 class="display-3">Portfolio</h1>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <h1 class="display-3 text-secondary">Portfolio</h1>
+    </div>
+
+    <div class="webApps">
+      <h2>Web Applications</h2>
+      <p>(Images are hyperlinks to the deployed App or the App GitHub Repo)</p>
+
+      <!-- Project Cards -->
+      <div class="container">
+
+        <!-- 1st row of Project Cards -->
+        <div class="row">
+          <div class="card-columns">
+            <div class=" card projectCard">
+              <a class="img-link" href="https://secrets-beth.herokuapp.com/" target="_blank">
+                <img class="card-img-top" alt="Secrets" src="assets/images/topSecretStamp.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Secrets</h5>
+                </div>
+              </a>
+              <p class="card-text">Secrets allows users to anonymously share secrets. Developed as a way to practice
+                Authentication & Security practices specificly OAuth 2.0.
+                <br>
+                Type: Full Stack Web Application
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                  <img class="icon html5" src="assets/images/icons/node-dot-js.svg" alt="Node.js">
+                  <img class="icon mongodb" src="assets/images/icons/mongodb.svg" alt="MongoDB">
+                  <img class="icon oauth" src="assets/images/icons/oauth.svg" alt="OAuth 2.0">
+                  <img class="icon heroku" src="assets/images/icons/heroku.svg" alt="Heroku">
+                </div>
+              </div>
+
             </div>
-        </div>
 
-        <div class="webApps">
-          <h2>Web Applications</h2>
+            <div class="card projectCard">
+              <a class="img-link" href="https://github.com/BETH-A/Keeper" target="_blank">
+                <img class="card-img-top" alt="Keeper" src="assets/images/postItNotes.jpeg">
+                <div class="card-body">
+                  <h5 class="card-title">Keeper</h5>
+                </div>
+              </a>
+              <p class="card-text">
+                Note/Post-it type web application created with React. User can create and delete notes.
+                <br>
+                Currently only the Front-End.
+                <br>
+                Type: Front-end Web Application
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                  <img class="icon" src="assets/images/icons/react.svg" alt="React">
+                  <img class="icon" src="assets/images/icons/css3.svg" alt="CSS3">
+                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
+                  <img class="icon" src="assets/images/icons/github.svg" alt="Github Pages">
+                </div>
+              </div>
+            </div>
 
-        <!-- Project Cards -->
-        <div class="container projectCardRow">
-            <!-- <div class="row"> -->
+            <div class="card projectCard">
+              <a class="img-link" href="https://beth-a.github.io/Movie-Night/" target="_blank">
+                <img class="card-img-top" alt="Movie Night" src="assets/images/movie.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Movie Finder</h5>
+                </div>
+              </a>
+              <p class="card-text">
+                Group project that uses an API to render current movies and some info about the
+                selected movie.
+                <br>
+                My role: Front End Development.
+                <br>
+                Type: Full Stack Web Application
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
+                  <img class="icon" src="assets/images/icons/css3.svg" alt="CSS3">
+                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
+                  <img class="icon" src="assets/images/icons/firebase.svg" alt="Firebase DB Console">
+                </div>
+              </div>
+            </div>
+          </div>
 
-                <!-- 1st row of Project Cards -->
-                        <div class="row row1">
-                          <div class="card-columns">
-                        <div class="card projectCard">
-                          <a class="img-link" href="https://beth-a.github.io/connect/" target="_blank">
-                            <img class="card-img-top" alt="RPG Game" src="assets/images/students1.jpg">
-                            <div class="card-body">
-                              <h5 class="card-title">Student Connect</h5>
-                          </a>
-                          <p class="card-text">Web app created with a classmate to assist Students to connect with fellow classmates and utilizes a realtime chat feature.
-                            My role: setting up the Laravel framework, polishing frontend, and setting up the databases & the routes.</p>
-                            </div>
-                          <div class="card-footer iconRow">
-                            <img src="assets/images/icons/icon-laravel.png" alt="Laravel">
-                            <img src="assets/images/icons/icon-php.png" alt="php">
-                            <img src="assets/images/icons/icons8-vue-js-50.png" alt="Vuejs">
-                            <img src="assets/images/icons/icon-mySQL.png" alt="SQL">
-                          </div>
-                        </div>
+          <!-- 2nd row of Project Cards -->
+          <div class="card-columns">
+            <div class="card projectCard">
+              <a class="img-link" href="https://beth-a.github.io/GifTastic/" target="_blank">
+                <img class="card-img-top" alt="GifTastic!"
+                  src="http://78.media.tumblr.com/e3e059dec30337f593abc3b554162eb9/tumblr_nb4z62cjaL1ry46hlo1_500.gif">
+                <div class="card-body">
+                  <h5 class="card-title">GifTastic!</h5>
+                </div>
+              </a>
+              <p class="card-text">Render gifs from giphy.com for any topic you list.
+                Web App created early on using to practice APIs and JavaScript methods.
+                <br>
+                Type: Full Stack Web Application
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
+                  <img class="icon" src="assets/images/icons/css3.svg" alt="CSS3">
+                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
+                  <img class="icon" src="assets/images/icons/bootstrap.svg" alt="Bootstrap">
+                </div>
+              </div>
+            </div>
 
-                        <div class="card projectCard">
-                          <a class="img-link" href="https://beth-a.github.io/Movie-Night/" target="_blank">
-                            <img class="card-img-top" alt="Movie Night" src="assets/images/movie.jpg">
-                            <div class="card-body">
-                              <h5 class="card-title">Movie Finder</h5>
-                          </a>
-                          <p class="card-text">Group project that uses an API to render current movies and some info about the selected movie.
-                            The app was deployed on Google Firebase Console. My role: Front End Development. </p>
-                              </div>
-                          <div class="card-footer iconRow">
-                            <img src="assets/images/icons/icons8-html-5-50.png" alt="HTML5">
-                            <img src="assets/images/icons/icons8-css3-50.png" alt="CSS3">
-                            <img src="assets/images/icons/icons8-javascript-50.png" alt="JavaScript">
-                            <img src="assets/images/icons/icons8-firebase-50.png" alt="Firebase DB Console">
-                          </div>
-                        </div>
+            <div class="card projectCard">
+              <a class="img-link" href="https://beth-a.github.io/TriviaGame/" target="_blank">
+                <img class="card-img-top" alt="Trivia Game" src="assets/images/HPbackground2.jpg">
+                <div class="card-body">
+                  <h5 class="card-title">Harry Potter Trivia</h5>
+                </div>
+              </a>
+              <p class="card-text">
+                Test your knowledge of the world of Harry Potter with a simple Trivia Game.
+                <br>
+                One of my first web applications created.
+                <br>
+                Type: Full Stack Web Application
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
+                  <img class="icon" src="assets/images/icons/css3.svg" alt="CSS3">
+                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
+                  <img class="icon" src="assets/images/icons/jquery.svg" alt="jQuery">
+                </div>
+              </div>
+            </div>
 
-                        <div class="card projectCard">
-                          <a class="img-link" href="https://beth-a.github.io/Memory-Game/" target="_blank">
-                            <img class="card-img-top" alt="Click Game" src="assets/images/Tropical-Background-1.jpg">
-                            <div class="card-body">
-                              <h5 class="card-title">Memory Game</h5>
-                          </a>
-                          <p class="card-text">Test your memory with this Tropical web application. Created using React and deployed on Heroku.
-                          App was created to demonstrate basic logic and state management.</p>
-                          </div>
-                        <div class="card-footer iconRow">
-                          <img src="assets/images/icons/icons8-nodejs-50.png" alt="NodeJS">
-                          <img src="assets/images/icons/icons8-react-native-50.png" alt="React">
-                          <img src="assets/images/icons/icons8-heroku-50.png" alt="Heroku">
-                          <!-- <img src="assets/images/icons/icons8-javascript-50.png" alt="JavaScript"> -->
-                        </div>
-                      </div>
+            <div class="card projectCard">
+              <a class="img-link" href="https://beth-a.github.io/Nexter/" target="_blank">
+                <img class="card-img-top" alt="Nexter" src="assets/images/nexter.jpeg">
+                <div class="card-body">
+                  <h5 class="card-title">Nexter</h5>
+                </div>
+              </a>
+              <p class="card-text">
+                Real Estate inspire website was used to learn to use the power of SASS and CSS Grids.
+                <br>
+                Type: Web Application (Front-End only)
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
+                  <img class="icon" src="assets/images/icons/sass.svg" alt="CSS3">
+                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
+                  <img class="icon" src="assets/images/icons/npm.svg" alt="NPM">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd row of Project Cards -->
+          <div class="card-columns">
+            <div class="card projectCard">
+              <a class="img-link" href="https://beth-a.github.io/Natours/" target="_blank">
+                <img class="card-img-top" alt="Natours" src="assets/images/natours.png">
+                <div class="card-body">
+                  <h5 class="card-title">Natours</h5>
+                </div>
+              </a>
+              <p class="card-text">
+                Nature Tour inspired website created to practice 7-in-1 SASS Architecture, Media Queries Management, and
+                advanced styling techniques.
+                <br>
+                Type: Front-end Web Application
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
+                  <img class="icon" src="assets/images/icons/sass.svg" alt="SASS">
+                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
+                  <img class="icon" src="assets/images/icons/github.svg" alt="Github Pages">
+                </div>
+              </div>
+            </div>
+
+            <div class="card projectCard">
+              <a class="img-link" href="https://www.pureenergywellness.com/" target="_blank">
+                <img class="card-img-top" alt="Pure Energy Wellness" src="assets/images/pew.png">
+                <div class="card-body">
+                  <h5 class="card-title">Pure Energy Wellness</h5>
+                </div>
+              </a>
+              <p class="card-text">
+                Web site designed to Client's specifications. Client already had domain & SquareSpace platform.
+                <br>
+                My task was design and content creation.
+                <br>
+                Type: Client Website
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                </div>
+              </div>
+            </div>
+
+            <div class="card projectCard">
+              <a class="img-link" href="https://www.drdacupuncture.com/" target="_blank">
+                <img class="card-img-top" alt="Dr D Acupuncture" src="assets/images/drD.png">
+                <div class="card-body">
+                  <h5 class="card-title">Dr D Acupuncture</h5>
+                </div>
+              </a>
+              <p class="card-text">
+                Web site designed to Client's specifications. Client already had domain & SquareSpace platform.
+                <br>
+                My task was design and content creation.
+                <br>
+                Type: Client Website
+              </p>
+              <div class="card-footer iconRow">
+                <div class="icon-row container">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- iOS Section -->
+          <div class="webApps">
+            <h2>iOS Applications</h2>
+
+            <!-- 1st row of iOS Project Cards -->
+            <div class="card-columns">
+              <div class="card projectCard">
+                <a class="img-link" href="https://github.com/BETH-A/BethCard" target="_blank">
+                  <img class="card-img-top" alt="BethCard" src="assets/images/bCard2.png">
+                  <div class="card-body">
+                    <h5 class="card-title">BethCard</h5>
                   </div>
+                </a>
+                <p class="card-text">
+                  Personal business card iOS App created as a way of learning & exploring SwiftUI, CallKit and
+                  MessageUI.
+                  <br>
+                  Type: iOS App - not launched on App Store
+                </p>
+                <div class="card-footer iconRow">
+                  <div class="icon-row container">
+                    <img class="icon" src="assets/images/icons/ios.svg" alt="iOS icon">
+                    <img class="icon" src="assets/images/icons/swift.svg" alt="SwiftUI">
+                    <img class="icon" src="assets/images/icons/xcode.svg" alt="XCode">
+                  </div>
+                </div>
               </div>
 
-                    <!-- 2nd row of Project Carts -->
-                    <div class="row row2">
-                      <!-- <div class="card-deck"> -->
-                      <div class="card-columns">
-
-
-                        <div class="card projectCard">
-                          <a class="img-link" href="https://beth-a.github.io/GifTastic/" target="_blank">
-                            <img class="card-img-top" alt="GifTastic!" src="http://78.media.tumblr.com/e3e059dec30337f593abc3b554162eb9/tumblr_nb4z62cjaL1ry46hlo1_500.gif">
-                            <div class="card-body">
-                              <h5 class="card-title">GifTastic!</h5>
-                          </a>
-                          <p class="card-text">Render gifs from giphy.com for any topic you list.
-                            Web App created early on using the basics of Bootstrap, HTML, CSS, JavaScript, and jQuery.</p>
-                            </div>
-                          <div class="card-footer iconRow">
-                            <img src="assets/images/icons/icons8-html-5-50.png" alt="HTML5">
-                            <img src="assets/images/icons/icons8-css3-50.png" alt="CSS3">
-                            <img src="assets/images/icons/icons8-javascript-50.png" alt="JavaScript">
-                            <img src="assets/images/icons/icons8-bootstrap-50.png" alt="Bootstrap">
-                          </div>
-                        </div>
-
-                        <div class="card projectCard">
-                          <a class="img-link" href="https://beth-a.github.io/TriviaGame/" target="_blank">
-                            <img class="card-img-top" alt="Trivia Game" src="assets/images/HPbackground2.jpg">
-                            <div class="card-body">
-                              <h5 class="card-title">Harry Potter Trivia</h5>
-                          </a>
-                          <p class="card-text">Test your knowledge of the world of Harry Potter with a simple Trivia Game.
-                          One of my first applications using HTML, CSS, JavaScript, and jQuery.</p>
-                            </div>
-                          <div class="card-footer iconRow">
-                            <img src="assets/images/icons/icons8-html-5-50.png" alt="HTML5">
-                            <img src="assets/images/icons/icons8-css3-50.png" alt="CSS3">
-                            <img src="assets/images/icons/icons8-javascript-50.png" alt="JavaScript">
-                            <img src="assets/images/icons/icons8-jquery-50.png" alt="jQuery">
-                          </div>
-                        </div>
-
-
-                        <div class="card projectCard">
-                          <a class="img-link" href="https://nytreact-ba.herokuapp.com/" target="_blank">
-                            <img class="card-img-top" alt="NY Times React Scrapper" src="assets/images/nyt.jpg">
-                            <div class="card-body">
-                              <h5 class="card-title">NY Times React</h5>
-                          </a>
-                          <p class="card-text">Retrieve New York Times news stories via API.
-                            This React Web App is deployed on Heroku and uses Express.js & MongoDB.</p>
-                            </div>
-                          <div class="card-footer iconRow">
-                            <img src="assets/images/icons/icon-expressjs.png" alt="Express.js">
-                            <img src="assets/images/icons/icons8-mongodb-50.png" alt="MongoDB">
-                            <img src="assets/images/icons/icons8-react-native-50.png" alt="React">
-                            <img src="assets/images/icons/icons8-heroku-50.png" alt="Heroku">
-                          </div>
-                        </div>
-                      <!-- </div>
-                    </div> -->
-
-                        <!-- <div class="card bg-info text-white text-center">
-                            <a class="img-link" href="https://beth-a.github.io/TrainScheduler/" target="_blank">
-                                <img class="card-img-top" alt="Train Scheduler" src="assets/images/train.jpg">
-                                <div class="card-body">
-                                    <h5 class="card-title">Train Scheduler</h5>
-                                </div>
-                            </a>
-                        </div> -->
+              <div class="card projectCard">
+                <a class="img-link" href="https://github.com/BETH-A/MagicPaper" target="_blank">
+                  <img class="card-img-top" alt="MagicPaper" src="assets/images/magicPaper.jpg">
+                  <div class="card-body">
+                    <h5 class="card-title">Magic Paper</h5>
+                  </div>
+                </a>
+                <p class="card-text">
+                  Harry Potter inspired Magic Newpaper App. Created as a way to learn the basics of AR Kit.
+                  <br>
+                  Type: iOS App - not launched on App Store
+                </p>
+                <div class="card-footer iconRow">
+                  <div class="icon-row container">
+                    <img class="icon" src="assets/images/icons/ios.svg" alt="iOS icon">
+                    <img class="icon" src="assets/images/icons/swift.svg" alt="SwiftUI">
+                    <img class="icon" src="assets/images/icons/xcode.svg" alt="XCode">
+                  </div>
+                </div>
               </div>
-        </div>
-      </div>
 
-
-      <div class="webApps">
-        <h2>iOS Applications</h2>
-
-
-      </div>
-
-      <div class="webApps">
-        <h2>Websites Designed</h2>
-
-
-      </div>
-
-    </main>
-
-            <!-- Footer -->
-            <div class="row">
-              <div class="col-md-12">
-                  <footer id="footer">
-                      <small>&copy;</small> copyright 2020 Beth Arnold
-                  </footer>
+              <div class="card projectCard">
+                <a class="img" target="_blank">
+                  <img class="card-img-top" alt="Holiday Todo" src="assets/images/bCard2.png">
+                  <div class="card-body">
+                    <h5 class="card-title">Holiday Check List</h5>
+                  </div>
+                </a>
+                <p class="card-text">Holiday checklist created as part of a Holiday coding challenge.
+                  <br> Currently developing
+                  <br> Type: iOS App - not launched on App Store <br>
+                </p>
+                <div class="card-footer iconRow">
+                  <div class="icon-row container">
+                    <img class="icon" src="assets/images/icons/ios.svg" alt="iOS icon">
+                    <img class="icon" src="assets/images/icons/swift.svg" alt="SwiftUI">
+                    <img class="icon" src="assets/images/icons/realm.svg" alt="Realm">
+                    <img class="icon" src="assets/images/icons/cocoapods.svg">
+                  </div>
+                </div>
               </div>
+
             </div>
-        </div>
+          </div>
 
+  </main>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Footer -->
+  <div class="row">
+    <div class="col-md-12">
+      <footer id="footer">
+        <small>&copy;</small> copyright 2020 Beth Arnold
+      </footer>
+    </div>
+  </div>
 
-        <script type="text/javascript" src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 
-<!-- Bootstrap tag -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Bootstrap tag -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
+
+
+
+
+<!-- REMOVED PROJECTS -->
+
+<!-- <div class="card projectCard">
+  <a class="img-link" href="https://nytreact-ba.herokuapp.com/" target="_blank">
+    <img class="card-img-top" alt="NY Times React Scrapper" src="assets/images/nyt.jpg">
+    <div class="card-body">
+      <h5 class="card-title">NY Times React</h5>
+  </a>
+  <p class="card-text">Retrieve New York Times news stories via API.
+    This React Web App is deployed on Heroku and uses Express.js & MongoDB.</p>
+    </div>
+  <div class="card-footer iconRow">
+    <img src="assets/images/icons/icon-expressjs.png" alt="Express.js">
+    <img src="assets/images/icons/icons8-mongodb-50.png" alt="MongoDB">
+    <img src="assets/images/icons/icons8-react-native-50.png" alt="React">
+    <img src="assets/images/icons/icons8-heroku-50.png" alt="Heroku">
+  </div>
+</div> -->
+
+<!-- <div class="card bg-info text-white text-center">
+    <a class="img-link" href="https://beth-a.github.io/TrainScheduler/" target="_blank">
+        <img class="card-img-top" alt="Train Scheduler" src="assets/images/train.jpg">
+        <div class="card-body">
+            <h5 class="card-title">Train Scheduler</h5>
+        </div>
+    </a>
+</div> -->
+
+<!-- <div class="card projectCard">
+  <a class="img-link" href="https://beth-a.github.io/Memory-Game/" target="_blank">
+    <img class="card-img-top" alt="Click Game" src="assets/images/Tropical-Background-1.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Memory Game</h5>
+  </a>
+  <p class="card-text">Test your memory with this Tropical web application. Created using React and deployed on Heroku.
+  App was created to demonstrate basic logic and state management.</p>
+    <div class="card-footer iconRow">
+      <img src="assets/images/icons/icons8-nodejs-50.png" alt="NodeJS">
+      <img src="assets/images/icons/icons8-react-native-50.png" alt="React">
+      <img src="assets/images/icons/icons8-heroku-50.png" alt="Heroku">
+      <img src="assets/images/icons/icons8-javascript-50.png" alt="JavaScript"> 
+    </div>
+</div> -->
+
+<!-- <div class="card projectCard">
+  <a class="img-link" href="https://beth-a.github.io/connect/" target="_blank">
+    <img class="card-img-top" alt="RPG Game" src="assets/images/students1.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Student Connect</h5>
+  </a>
+  <p class="card-text">Web app created with a classmate to assist Students to connect with fellow classmates and utilizes a realtime chat feature.
+    My role: setting up the Laravel framework, polishing frontend, and setting up the databases & the routes.</p>
+    </div>
+  <div class="card-footer iconRow">
+    <img src="assets/images/icons/icon-laravel.png" alt="Laravel">
+    <img src="assets/images/icons/icon-php.png" alt="php">
+    <img src="assets/images/icons/icons8-vue-js-50.png" alt="Vuejs">
+    <img src="assets/images/icons/icon-mySQL.png" alt="SQL">
+  </div>
+</div> -->
