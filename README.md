@@ -3,9 +3,9 @@
 ![Site Image](./assets/images/site.jpg)
 
 ## Table of Contents
-* [Intro] (#intro)
-* [Getting Started] (#gettings-started)
-* [Technologies] (#techologies)
+* [Intro](#intro)
+* [Getting Started](#gettings-started)
+* [Technologies](#techologies)
 
 ## Intro
 
