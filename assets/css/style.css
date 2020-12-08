@@ -9,9 +9,18 @@ h4 {
   color: #d4d4d4;
 }
 
+img {
+  /* filter: invert(1); */
+}
+
 label {
   color: #d4d4d4;
 }
+
+main {
+  /* background: #000; */
+  /* filter: invert(1); */
+}  
 
 p {
   color: #d4d4d4;
@@ -113,11 +122,6 @@ p {
   margin-left: 70%;
 }
 
-.icon-row {
-
-  /* background-color: #f7caca; */
-}
-
 .img-fluid {
   float: left;
   height: 175px;
@@ -183,8 +187,6 @@ p {
   flex-basis: 20%;
 }
 
-
-
 .row {
   padding: 50px;
 }
@@ -193,13 +195,6 @@ p {
   color: #d4d4d4;
   text-align: center;
   margin-top: 2rem;
-}
-
-
-/* Icon Styling */
-
-.html {
-  fill: currentColor;
 }
 
 /* Link Styling */
