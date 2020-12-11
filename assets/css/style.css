@@ -207,6 +207,13 @@ p {
   text-align: left;
   flex-grow: 1;
   flex-basis: 20%;
+  opacity: .9;
+  box-shadow: 2px 7px 10px rgba(255, 255, 255, .5);
+}
+
+.card:hover {
+    transform: translateY(-1rem) scale(1.03);
+    opacity: 1;
 }
 
 .row {
