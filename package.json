@@ -18,6 +18,7 @@
   "homepage": "https://github.com/BETH-A/BethArnold#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "node": "^15.3.0",
     "rfs": "^9.0.3",
     "simple-icons": "^4.1.0"
   }
