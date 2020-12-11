@@ -1,9 +1,11 @@
-import express from 'express';
+var express = require(
+  'express'
+)
 
 const app = express();
 
 app.get("/", function(req, res){
-  res.sendFile(`${__dirname}/index.html`);
+  res.sendFile(__dirname + '/');
 });
 
 app.get("/contact",function(req, res){
