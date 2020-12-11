@@ -200,6 +200,12 @@ p {
   margin-top: 2rem;
 }
 
+@media (max-width: 1200px) {
+  .navbar {
+    font-size: calc(1.525rem + 3.3vw);
+  }
+}
+
 /* Link Styling */
 /* unvisited link */
 a:link {
