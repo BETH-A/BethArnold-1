@@ -1,4 +1,4 @@
-import express from './node_modules/express';
+import express from './node_modules/express'; // dist/express.js
 
 const app = express();
 
