@@ -98,8 +98,24 @@ p {
   align-items: center;
 }
 
-.display-3 {
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+      opacity: 1;
+      transform: translateX(2rem);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.display-4 {
   color: #900;
+  animation: moveInLeft 2s ease-in;
 }
 
 .form-control {
@@ -132,9 +148,12 @@ p {
   width: 200px;
 }
 
+
+
 .jumbotron {
-  height: 150px;
+  height: 6rem;
   margin: 0;
+  padding-left: 3%;
   text-align: start;
 }
 
@@ -184,26 +203,20 @@ p {
   background-image: linear-gradient(to bottom, rgba(220, 133, 132), rgba(144, 0, 0), rgba(220, 133, 132));
   color: #d4d4d4;
   height: 525px;
-  margin: 10px;
+  margin: 20px 10px;
   text-align: left;
   flex-grow: 1;
   flex-basis: 20%;
 }
 
 .row {
-  padding: 50px;
+  padding: 25px 50px;
 }
 
 .webApps {
   color: #d4d4d4;
   text-align: center;
   margin-top: 2rem;
-}
-
-@media (max-width: 1200px) {
-  .navbar {
-    font-size: calc(1.525rem + 3.3vw);
-  }
 }
 
 /* Link Styling */
