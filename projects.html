@@ -26,8 +26,11 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="/">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="projects.html">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About
@@ -51,11 +54,12 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-4 text-secondary">Portfolio</h1>
+      <h1 class="display-4 text-secondary">Projects</h1>
     </div>
 
     <div class="webApps">
-      <h2>Web Applications</h2>
+      <h1>Smaller projects</h1>
+      <h5>(completed & in progress)</h5>
       <p>(Images are hyperlinks to the deployed App or the App GitHub Repo)</p>
 
       <!-- Project Cards -->
@@ -65,24 +69,25 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div class="col">
             <div class="card projectCard">
-              <a class="img-link" href="https://secrets-beth.herokuapp.com/" target="_blank">
-                <img class="card-img-top" alt="Secrets" src="assets/images/topSecretStamp.jpg">
+              <a class="img-link" href="https://beth-a.github.io/Nexter/" target="_blank">
+                <img class="card-img-top" alt="Nexter" src="assets/images/nexter.jpeg">
                 <div class="card-body">
-                  <h5 class="card-title">Secrets</h5>
+                  <h5 class="card-title">Nexter</h5>
                 </div>
               </a>
               <p class="card-text">
-                Secrets allows users to anonymously share secrets. Developed as a way to practice
-                Authentication & Security practices specificly OAuth 2.0.
+                Real Estate inspire website was used to learn to use the power of SASS and CSS Grids.
                 <br>
-                Type: Full Stack Web Application
+                Type: Web Application (Front-End only)
+                <br>
+                Status: completed
               </p>
               <div class="card-footer iconRow">
                 <div class="icon-row container">
-                  <img class="icon html5" src="assets/images/icons/node-dot-js.svg" alt="Node.js">
-                  <img class="icon mongodb" src="assets/images/icons/mongodb.svg" alt="MongoDB">
-                  <img class="icon oauth" src="assets/images/icons/oauth.svg" alt="OAuth 2.0">
-                  <img class="icon heroku" src="assets/images/icons/heroku.svg" alt="Heroku">
+                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
+                  <img class="icon" src="assets/images/icons/sass.svg" alt="CSS3">
+                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
+                  <img class="icon" src="assets/images/icons/npm.svg" alt="NPM">
                 </div>
               </div>
             </div>
@@ -90,23 +95,24 @@
 
           <div class="col">
             <div class="card projectCard">
-              <a class="img-link" href="https://github.com/BETH-A/Keeper" target="_blank">
-                <img class="card-img-top" alt="Keeper" src="assets/images/postItNotes.jpeg">
+              <a class="img-link" href="https://beth-a.github.io/Natours/" target="_blank">
+                <img class="card-img-top" alt="Natours" src="assets/images/natours.png">
                 <div class="card-body">
-                  <h5 class="card-title">Keeper</h5>
+                  <h5 class="card-title">Natours</h5>
                 </div>
               </a>
               <p class="card-text">
-                Note/Post-it type web application created with React. User can create and delete notes.
-                <br>
-                Currently only the Front-End.
+                Nature Tour inspired website created to practice 7-in-1 SASS Architecture, Media Queries Management, and
+                advanced styling techniques.
                 <br>
                 Type: Front-end Web Application
+                <br>
+                Status: completed
               </p>
               <div class="card-footer iconRow">
                 <div class="icon-row container">
-                  <img class="icon" src="assets/images/icons/react.svg" alt="React">
-                  <img class="icon" src="assets/images/icons/css3.svg" alt="CSS3">
+                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
+                  <img class="icon" src="assets/images/icons/sass.svg" alt="SASS">
                   <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
                   <img class="icon" src="assets/images/icons/github.svg" alt="Github Pages">
                 </div>
@@ -114,34 +120,6 @@
             </div>
           </div>
 
-          <div class="col">
-            <div class="card projectCard">
-              <a class="img-link" href="https://beth-a.github.io/Movie-Night/" target="_blank">
-                <img class="card-img-top" alt="Movie Night" src="assets/images/movie.jpg">
-                <div class="card-body">
-                  <h5 class="card-title">Movie Finder</h5>
-                </div>
-              </a>
-              <p class="card-text">
-                Group project that uses an API to render current movies and some info about the
-                selected movie.
-                <br>
-                My role: Front End Development.
-                <br>
-                Type: Full Stack Web Application
-              </p>
-              <div class="card-footer iconRow">
-                <div class="icon-row container">
-                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
-                  <img class="icon" src="assets/images/icons/css3.svg" alt="CSS3">
-                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
-                  <img class="icon" src="assets/images/icons/firebase.svg" alt="Firebase DB Console">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 2nd row of Project Cards -->
           <div class="col">
             <div class="card projectCard">
               <a class="img-link" href="https://beth-a.github.io/GifTastic/" target="_blank">
@@ -155,6 +133,8 @@
                 Web App created early on using to practice APIs and JavaScript methods.
                 <br>
                 Type: Full Stack Web Application
+                <br>
+                Status: completed
               </p>
               <div class="card-footer iconRow">
                 <div class="icon-row container">
@@ -181,6 +161,8 @@
                 One of my first web applications.
                 <br>
                 Type: Full Stack Web Application
+                <br>
+                Status: completed
               </p>
               <div class="card-footer iconRow">
                 <div class="icon-row container">
@@ -192,159 +174,20 @@
               </div>
             </div>
           </div>
-
-          <div class="col">
-            <div class="card projectCard">
-              <a class="img-link" href="https://beth-a.github.io/Nexter/" target="_blank">
-                <img class="card-img-top" alt="Nexter" src="assets/images/nexter.jpeg">
-                <div class="card-body">
-                  <h5 class="card-title">Nexter</h5>
-                </div>
-              </a>
-              <p class="card-text">
-                Real Estate inspire website was used to learn to use the power of SASS and CSS Grids.
-                <br>
-                Type: Web Application (Front-End only)
-              </p>
-              <div class="card-footer iconRow">
-                <div class="icon-row container">
-                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
-                  <img class="icon" src="assets/images/icons/sass.svg" alt="CSS3">
-                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
-                  <img class="icon" src="assets/images/icons/npm.svg" alt="NPM">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 3rd row of Project Cards -->
-          <div class="col">
-            <div class="card projectCard">
-              <a class="img-link" href="https://beth-a.github.io/Natours/" target="_blank">
-                <img class="card-img-top" alt="Natours" src="assets/images/natours.png">
-                <div class="card-body">
-                  <h5 class="card-title">Natours</h5>
-                </div>
-              </a>
-              <p class="card-text">
-                Nature Tour inspired website created to practice 7-in-1 SASS Architecture, Media Queries Management, and
-                advanced styling techniques.
-                <br>
-                Type: Front-end Web Application
-              </p>
-              <div class="card-footer iconRow">
-                <div class="icon-row container">
-                  <img class="icon" src="assets/images/icons/html5.svg" alt="HTML5">
-                  <img class="icon" src="assets/images/icons/sass.svg" alt="SASS">
-                  <img class="icon" src="assets/images/icons/javascript.svg" alt="JavaScript">
-                  <img class="icon" src="assets/images/icons/github.svg" alt="Github Pages">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card projectCard">
-              <a class="img-link" href="https://www.pureenergywellness.com/" target="_blank">
-                <img class="card-img-top" alt="Pure Energy Wellness" src="assets/images/pew.png">
-                <div class="card-body">
-                  <h5 class="card-title">Pure Energy Wellness</h5>
-                </div>
-              </a>
-              <p class="card-text">
-                Web site designed to Client's specifications. Client owned domain & SquareSpace platform.
-                
-                My task was design & content creation.
-                <br>
-                Type: Client Website
-              </p>
-              <div class="card-footer iconRow">
-                <div class="icon-row container">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card projectCard">
-              <a class="img-link" href="https://www.drdacupuncture.com/" target="_blank">
-                <img class="card-img-top" alt="Dr D Acupuncture" src="assets/images/drD.png">
-                <div class="card-body">
-                  <h5 class="card-title">Dr D Acupuncture</h5>
-                </div>
-              </a>
-              <p class="card-text">
-                Web site designed to Client's specifications. Client already had domain & SquareSpace platform.
-                
-                My task was design & content creation.
-                <br>
-                Type: Client Website
-              </p>
-              <div class="card-footer iconRow">
-                <div class="icon-row container">
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
 
     <!-- iOS Section -->
     <div class="webApps">
-      <h2>iOS Applications</h2>
+      <h3>Currently Developing</h3>
 
       <!-- Project Cards -->
       <div class="container">
 
         <!-- 1st row of iOS Project Cards -->
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        <div class="col">
-          <div class="card projectCard">
-            <a class="img-link" href="https://github.com/BETH-A/BethCard" target="_blank">
-              <img class="card-img-top" alt="BethCard" src="assets/images/bCard2.png">
-              <div class="card-body">
-                <h5 class="card-title">BethCard</h5>
-              </div>
-            </a>
-            <p class="card-text">
-              Personal business card iOS App developed to learn & exploring SwiftUI, CallKit & MessageUI.
-              <br>
-              Type: iOS App - not launched on App Store
-            </p>
-            <div class="card-footer iconRow">
-              <div class="icon-row container">
-                <img class="icon" src="assets/images/icons/ios.svg" alt="iOS icon">
-                <img class="icon" src="assets/images/icons/swift.svg" alt="SwiftUI">
-                <img class="icon" src="assets/images/icons/xcode.svg" alt="XCode">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card projectCard">
-            <a class="img-link" href="https://github.com/BETH-A/MagicPaper" target="_blank">
-              <img class="card-img-top" alt="MagicPaper" src="assets/images/magicPaper.jpg">
-              <div class="card-body">
-                <h5 class="card-title">Magic Paper</h5>
-              </div>
-            </a>
-            <p class="card-text">
-              Harry Potter inspired Magic Newpaper App. Created as a way to learn the basics of AR Kit.
-              <br>
-              Type: iOS App - not launched on App Store
-            </p>
-            <div class="card-footer iconRow">
-              <div class="icon-row container">
-                <img class="icon" src="assets/images/icons/ios.svg" alt="iOS icon">
-                <img class="icon" src="assets/images/icons/swift.svg" alt="SwiftUI">
-                <img class="icon" src="assets/images/icons/xcode.svg" alt="XCode">
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="col">
           <div class="card projectCard">
             <a class="img-link" href="/" target="_blank">
@@ -356,9 +199,10 @@
             <p class="card-text">
               Holiday checklist created as part of a Holiday coding challenge.
               <br>
-              Currently developing
+              Type: iOS App - not launched on App Store 
               <br>
-              Type: iOS App - not launched on App Store <br>
+              Status: Currently developing
+              <br>
             </p>
             <div class="card-footer iconRow">
               <div class="icon-row container">
