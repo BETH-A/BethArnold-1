@@ -48,16 +48,21 @@ p {
 }
 
 /* class styling */
+.about {
+  margin-top: 3rem;
+}
+
 .blockquote {
   background: #ca8d90;
-  height: 115px;
   text-align: center;
   border: 0px;
 }
 
 .blockquote-footer {
   background: #d4d4d4;
-  height: 30px;
+  /* height: 30px; */
+  margin-left: 25%;
+  padding: 5px;
 }
 
 .btn {
@@ -160,12 +165,13 @@ p {
 }
 
 .quote {
-  margin-bottom: 100px;
+  margin: 3rem 0;
 }
 
 .quotetext {
   color: #000;
   font-size: 16px;
+  padding: 1rem;
 }
 
 .profile_data {
