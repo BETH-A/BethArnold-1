@@ -72,6 +72,11 @@ p {
   color: #d4d4d4;
 }
 
+.btn:hover {
+  background-color: #d4d4d4;
+  color: #900;
+}
+
 .btn-nav {
   background-color: #d4d4d4;
   border-color: #900;
@@ -79,6 +84,9 @@ p {
   margin-right: 10px;
 }
 
+.btn-nav:hover {
+  background-color: #ca8d90;
+}
 
 
 .card-footer {
