@@ -1,8 +1,30 @@
+//global reset
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px, 10px/16px(browser default) = 62.5%
+
+    /* @media only screen and (max-width: $bp-md) {
+        font-size: 50%;
+    } */
+}
+
 /* element styling */
 body {
   background: url(../images/backgrounds/blackWhiteFlowers.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+  font-size: 1.6rem;
 }
 
 h4 {
@@ -32,9 +54,9 @@ p {
   bottom: 0;
   /* color: #666666; */
   color: #d4d4d4;
-  height: 60px;
+  height: 6rem;
   left: 0;
-  padding: 20px;
+  padding: 2rem;
   position: relative;
   text-align: center;
   width: 100vw;
@@ -42,34 +64,34 @@ p {
 
 #pic {
   float: left;
-  height: 350px;
-  margin-right: 15px;
-  margin-top: 75px;
-  width: 250px;
+  height: 40vh;
+  margin-right: 5rem;
+  width: 18vw;
 }
 
 /* class styling */
 .about {
-  margin-top: 3rem;
+  margin-bottom: 7vh;
 }
 
 .blockquote {
   background: #ca8d90;
   text-align: center;
-  border: 0px;
+  border: 0;
 }
 
 .blockquote-footer {
   background: #d4d4d4;
-  /* height: 30px; */
   margin-left: 25%;
-  padding: 5px;
+  padding: .5rem;
 }
 
 .btn {
   background-color: #900;
   border-color: #900;
   color: #d4d4d4;
+  font-size: 1.5rem;
+
 }
 
 .btn:hover {
@@ -81,7 +103,7 @@ p {
   background-color: #d4d4d4;
   border-color: #900;
   color: #900;
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .btn-nav:hover {
@@ -95,11 +117,11 @@ p {
 }
 
 .card-img-top {
-  height: 200px;
+  height: 20rem;
 }
 
 .card-text {
-  padding: 10px;
+  padding: 1rem;
 }
 
 .card-title {
@@ -137,8 +159,11 @@ p {
 }
 
 .display-4 {
-  color: #900;
+  color: #900!important;
   animation: moveInLeft 2s ease-in;
+  padding-left: 5vh;
+  font-size: 5rem;
+  vertical-align: middle;
 }
 
 .footer-row {
@@ -151,7 +176,7 @@ p {
 }
 
 .icon {
-  height: 40px;
+  height: 4rem;
   padding: .2rem;
   flex-basis: 25%;
 }
@@ -162,15 +187,16 @@ p {
 
 .img-fluid {
   float: left;
-  height: 175px;
-  margin-right: 15px;
-  width: 200px;
+  height: 17.5rem;
+  margin-right: 1.5rem;
+  width: 20rem;
 }
 
 .jumbotron {
-  height: 6rem;
-  margin: 0;
-  padding-left: 3%;
+  height: 2rem;
+  margin: 6rem 0;
+  padding-bottom: 10vh;
+  padding-top: 1vh;
   text-align: start;
 }
 
@@ -179,7 +205,7 @@ p {
 }
 
 .navbar-brand {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .quote {
@@ -188,7 +214,7 @@ p {
 
 .quotetext {
   color: #000;
-  font-size: 16px;
+  font-size: 1.6rem;
   padding: 1rem;
 }
 
@@ -196,38 +222,25 @@ p {
   order: 2;
   color: #d4d4d4;
   float: right;
-  /* left: 350px; */
-  padding: 0px 30px 0px 30px;
+  padding: 0px 1.2rem;
   position: relative;
-  max-width: 35rem;
+  max-width: 43vw;
 }
 
 .profile_pic {
   order: 1;
 }
 
-/* .projectCard:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  box-shadow: inset 0 0 200rem rgba(255, 255, 255, .5);
-  filter: blur(1rem);
-  background: inherit;
-} */
-
 .projectCard {
   background-image: linear-gradient(to bottom, rgba(220, 133, 132), rgba(144, 0, 0), rgba(220, 133, 132));
   color: #d4d4d4;
-  height: 525px;
-  margin: 20px 10px;
+  height: 52.5rem;
+  margin: 2rem 1rem;
   text-align: left;
   flex-grow: 1;
   flex-basis: 20%;
   opacity: .9;
-  box-shadow: 2px 7px 10px rgba(255, 255, 255, .5);
+  box-shadow: .2rem .7rem 1rem rgba(255, 255, 255, .5);
 }
 
 .card:hover {
